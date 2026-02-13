@@ -10,6 +10,7 @@ Pillow>=10.0.0
 
 # Optional: For testing
 requests>=2.31.0
+gunicorn>=21.2.0
 
 # Note: NumPy is not required - using pure Python implementation
 # If you want to use NumPy with Python 3.14, install with:
