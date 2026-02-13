@@ -3,6 +3,7 @@ First Aid Assistant - Flask Backend
 """
 
 from flask import Flask, render_template, request, jsonify
+from flask_cors import CORS
 from werkzeug.utils import secure_filename
 import os
 from classifier import create_classifier
