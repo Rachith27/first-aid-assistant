@@ -1,0 +1,16 @@
+# First Aid Assistant - Python 3.14 Compatible Requirements
+# Updated for maximum compatibility with Python 3.14
+
+# Web Framework
+Flask>=3.0.0
+Werkzeug>=3.0.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# Optional: For testing
+requests>=2.31.0
+
+# Note: NumPy is not required - using pure Python implementation
+# If you want to use NumPy with Python 3.14, install with:
+# pip install --pre numpy
