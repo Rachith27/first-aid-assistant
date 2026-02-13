@@ -10,6 +10,7 @@ from classifier import create_classifier
 from first_aid_data import FIRST_AID_INSTRUCTIONS, GENERAL_DISCLAIMER, SAFETY_EXCLUSIONS
 
 app = Flask(__name__)
+CORS(app)  # ADD THIS LINE
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max file size
 app.config['UPLOAD_FOLDER'] = 'uploads'
 
